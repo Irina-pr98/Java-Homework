@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class third_task2 {
 
     public static void logging(String str) {
-        String path = "calc.txt";
+        String path = "Seminar 2/calc.txt";
         File logFile = new File(path);
         try {
             FileWriter writer = new FileWriter(logFile, true);
