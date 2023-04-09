@@ -23,6 +23,6 @@ public class third_task {
             sum += element;
         
         double average = (double) sum / (double) arrayList.length;
-        System.out.print("Среднее арифметическое чисел списка: " + average);
+        System.out.println("Среднее арифметическое чисел списка: " + average);
     }
 }
